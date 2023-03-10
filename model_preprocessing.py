@@ -10,7 +10,7 @@ def preprocessing():
 
     df_train[['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']] = sc.fit_transform(
         df_train.drop(columns={'target'}))
-    df_test[['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']] = sc.fit_transform(
+    df_test[['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']] = sc.transform(
         df_test.drop(columns={'target'}))
 
     df_train.to_csv('train/train_data.csv', index=False, sep='~')
