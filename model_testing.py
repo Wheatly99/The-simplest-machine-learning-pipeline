@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import pandas as pd
 from sklearn.metrics import accuracy_score
 import joblib
