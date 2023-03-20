@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from sklearn.linear_model import LogisticRegression
 import joblib
 import pandas as pd
