@@ -10,4 +10,3 @@ COPY model_testing.py ./model_testing.py
 COPY pipeline.sh ./pipeline.sh
 RUN chmod u+r+x pipeline.sh
 CMD ./pipeline.sh
-
